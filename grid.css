@@ -1,0 +1,31 @@
+
+
+  #myDIV {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ; 
+    height: 50px; 
+    background-color: grey;
+    padding: 10px;
+    gap: 5px;
+    align-items: center; 
+}
+
+#myDIV div {
+    background-color: yellowgreen;
+    padding: 10px 20px;
+    /* width: 75px; */
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* cursor: pointer; */
+}
+
+/* #myDIV div:hover {
+    background-color:blue;
+} */
+
+
+.item0{
+    justify-self: start;
+    border: 1px solid black;
+      }
